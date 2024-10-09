@@ -5,14 +5,15 @@
     android:layout_height="match_parent">
     
     <EditText
-        android:layout_marginTop="10dp"
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:hint="@string/hey_buddy"
-        android:textSize="20sp"
         android:paddingStart="7dp"
         android:paddingEnd="7dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         tools:ignore="TextFields" />
     
     <Button

@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements OnDialogCloseList
 
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setAdapter(adapter);
+        recyclerView.setAdapter(adapter);g
 
         mList = myDB.getAllTasks();
         Collections.reverse(mList);

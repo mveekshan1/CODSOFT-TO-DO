@@ -1,5 +1,6 @@
 package com.to_do.app.Utilities;
 
+import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -63,6 +64,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         db.delete(TABLE_NAME, "ID=?",new String[]{String.valueOf(id)});
     }
 
+    @SuppressLint("Range")
     public List<ToDoModel> getAllTasks(){
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = null;

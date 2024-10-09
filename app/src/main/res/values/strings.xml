@@ -2,4 +2,6 @@
     <string name="app_name">TO-DO</string>
     <string name="save">Save</string>
     <string name="hey_buddy">Hey Buddy...</string>
+    <string name="this_is_simple_text">This is Simple Text</string>
+    <string name="add_task">Add Task</string>
 </resources>

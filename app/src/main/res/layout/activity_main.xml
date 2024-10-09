@@ -37,7 +37,9 @@
         android:layout_alignParentEnd="true"
         android:layout_margin="20dp"
         android:src="@drawable/add"
-        android:backgroundTint="#4262B3"/>
+        android:backgroundTint="#4262B3"
+        android:contentDescription="@string/add_task" />
+
 
 
 
